@@ -7,15 +7,15 @@ import (
 	unisms "github.com/apistd/uni-go-sdk/sms"
 	"github.com/suyuan32/simple-admin-common/i18n"
 	"github.com/suyuan32/simple-admin-common/utils/pointy"
-	smsprovider2 "github.com/suyuan32/simple-admin-message-center/ent/smsprovider"
-	"github.com/suyuan32/simple-admin-message-center/internal/enum/smsprovider"
-	"github.com/suyuan32/simple-admin-message-center/internal/utils/dberrorhandler"
+	smsprovider2 "github.com/huuhoait/simple-admin-message-center/ent/smsprovider"
+	"github.com/huuhoait/simple-admin-message-center/internal/enum/smsprovider"
+	"github.com/huuhoait/simple-admin-message-center/internal/utils/dberrorhandler"
 	sms "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/sms/v20210111"
 	"github.com/zeromicro/go-zero/core/errorx"
 	"strings"
 
-	"github.com/suyuan32/simple-admin-message-center/internal/svc"
-	"github.com/suyuan32/simple-admin-message-center/types/mcms"
+	"github.com/huuhoait/simple-admin-message-center/internal/svc"
+	"github.com/huuhoait/simple-admin-message-center/types/mcms"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

@@ -5,16 +5,16 @@ import (
 	"fmt"
 	"github.com/pkg/errors"
 	"github.com/suyuan32/simple-admin-common/i18n"
-	emailprovider2 "github.com/suyuan32/simple-admin-message-center/ent/emailprovider"
-	"github.com/suyuan32/simple-admin-message-center/internal/config"
-	"github.com/suyuan32/simple-admin-message-center/internal/utils/dberrorhandler"
-	"github.com/suyuan32/simple-admin-message-center/internal/utils/email"
+	emailprovider2 "github.com/huuhoait/simple-admin-message-center/ent/emailprovider"
+	"github.com/huuhoait/simple-admin-message-center/internal/config"
+	"github.com/huuhoait/simple-admin-message-center/internal/utils/dberrorhandler"
+	"github.com/huuhoait/simple-admin-message-center/internal/utils/email"
 	"github.com/zeromicro/go-zero/core/errorx"
 	"net/smtp"
 	"strings"
 
-	"github.com/suyuan32/simple-admin-message-center/internal/svc"
-	"github.com/suyuan32/simple-admin-message-center/types/mcms"
+	"github.com/huuhoait/simple-admin-message-center/internal/svc"
+	"github.com/huuhoait/simple-admin-message-center/types/mcms"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

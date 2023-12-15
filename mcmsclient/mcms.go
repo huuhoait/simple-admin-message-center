@@ -6,7 +6,7 @@ package mcmsclient
 import (
 	"context"
 
-	"github.com/suyuan32/simple-admin-message-center/types/mcms"
+	"github.com/huuhoait/simple-admin-message-center/types/mcms"
 
 	"github.com/zeromicro/go-zero/zrpc"
 	"google.golang.org/grpc"

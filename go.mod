@@ -1,4 +1,4 @@
-module github.com/suyuan32/simple-admin-message-center
+module github.com/huuhoait/simple-admin-message-center
 
 go 1.20
 

@@ -12,11 +12,11 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/sql"
 	uuid "github.com/gofrs/uuid/v5"
-	"github.com/suyuan32/simple-admin-message-center/ent/emaillog"
-	"github.com/suyuan32/simple-admin-message-center/ent/emailprovider"
-	"github.com/suyuan32/simple-admin-message-center/ent/predicate"
-	"github.com/suyuan32/simple-admin-message-center/ent/smslog"
-	"github.com/suyuan32/simple-admin-message-center/ent/smsprovider"
+	"github.com/huuhoait/simple-admin-message-center/ent/emaillog"
+	"github.com/huuhoait/simple-admin-message-center/ent/emailprovider"
+	"github.com/huuhoait/simple-admin-message-center/ent/predicate"
+	"github.com/huuhoait/simple-admin-message-center/ent/smslog"
+	"github.com/huuhoait/simple-admin-message-center/ent/smsprovider"
 )
 
 const (

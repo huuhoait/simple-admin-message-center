@@ -2,11 +2,11 @@ package smsprovider
 
 import (
 	"context"
-	smsprovider2 "github.com/suyuan32/simple-admin-message-center/ent/smsprovider"
+	smsprovider2 "github.com/huuhoait/simple-admin-message-center/ent/smsprovider"
 
-	"github.com/suyuan32/simple-admin-message-center/internal/svc"
-	"github.com/suyuan32/simple-admin-message-center/internal/utils/dberrorhandler"
-	"github.com/suyuan32/simple-admin-message-center/types/mcms"
+	"github.com/huuhoait/simple-admin-message-center/internal/svc"
+	"github.com/huuhoait/simple-admin-message-center/internal/utils/dberrorhandler"
+	"github.com/huuhoait/simple-admin-message-center/types/mcms"
 
 	"github.com/suyuan32/simple-admin-common/i18n"
 

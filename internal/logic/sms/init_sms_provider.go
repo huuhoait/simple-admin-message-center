@@ -2,11 +2,11 @@ package sms
 
 import (
 	"github.com/pkg/errors"
-	smsprovider2 "github.com/suyuan32/simple-admin-message-center/ent/smsprovider"
-	"github.com/suyuan32/simple-admin-message-center/internal/enum/smsprovider"
-	"github.com/suyuan32/simple-admin-message-center/internal/utils/dberrorhandler"
-	"github.com/suyuan32/simple-admin-message-center/internal/utils/smssdk"
-	"github.com/suyuan32/simple-admin-message-center/types/mcms"
+	smsprovider2 "github.com/huuhoait/simple-admin-message-center/ent/smsprovider"
+	"github.com/huuhoait/simple-admin-message-center/internal/enum/smsprovider"
+	"github.com/huuhoait/simple-admin-message-center/internal/utils/dberrorhandler"
+	"github.com/huuhoait/simple-admin-message-center/internal/utils/smssdk"
+	"github.com/huuhoait/simple-admin-message-center/types/mcms"
 	"github.com/zeromicro/go-zero/core/errorx"
 )
 

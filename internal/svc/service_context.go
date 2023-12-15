@@ -1,9 +1,9 @@
 package svc
 
 import (
-	"github.com/suyuan32/simple-admin-message-center/ent"
-	"github.com/suyuan32/simple-admin-message-center/internal/config"
-	"github.com/suyuan32/simple-admin-message-center/internal/utils/smssdk"
+	"github.com/huuhoait/simple-admin-message-center/ent"
+	"github.com/huuhoait/simple-admin-message-center/internal/config"
+	"github.com/huuhoait/simple-admin-message-center/internal/utils/smssdk"
 	"net/smtp"
 
 	"github.com/zeromicro/go-zero/core/logx"

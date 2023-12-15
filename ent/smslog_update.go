@@ -11,8 +11,8 @@ import (
 	"entgo.io/ent/dialect/sql"
 	"entgo.io/ent/dialect/sql/sqlgraph"
 	"entgo.io/ent/schema/field"
-	"github.com/suyuan32/simple-admin-message-center/ent/predicate"
-	"github.com/suyuan32/simple-admin-message-center/ent/smslog"
+	"github.com/huuhoait/simple-admin-message-center/ent/predicate"
+	"github.com/huuhoait/simple-admin-message-center/ent/smslog"
 )
 
 // SmsLogUpdate is the builder for updating SmsLog entities.

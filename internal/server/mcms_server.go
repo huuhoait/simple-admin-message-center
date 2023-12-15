@@ -6,15 +6,15 @@ package server
 import (
 	"context"
 
-	"github.com/suyuan32/simple-admin-message-center/internal/logic/base"
-	"github.com/suyuan32/simple-admin-message-center/internal/logic/email"
-	"github.com/suyuan32/simple-admin-message-center/internal/logic/emaillog"
-	"github.com/suyuan32/simple-admin-message-center/internal/logic/emailprovider"
-	"github.com/suyuan32/simple-admin-message-center/internal/logic/sms"
-	"github.com/suyuan32/simple-admin-message-center/internal/logic/smslog"
-	"github.com/suyuan32/simple-admin-message-center/internal/logic/smsprovider"
-	"github.com/suyuan32/simple-admin-message-center/internal/svc"
-	"github.com/suyuan32/simple-admin-message-center/types/mcms"
+	"github.com/huuhoait/simple-admin-message-center/internal/logic/base"
+	"github.com/huuhoait/simple-admin-message-center/internal/logic/email"
+	"github.com/huuhoait/simple-admin-message-center/internal/logic/emaillog"
+	"github.com/huuhoait/simple-admin-message-center/internal/logic/emailprovider"
+	"github.com/huuhoait/simple-admin-message-center/internal/logic/sms"
+	"github.com/huuhoait/simple-admin-message-center/internal/logic/smslog"
+	"github.com/huuhoait/simple-admin-message-center/internal/logic/smsprovider"
+	"github.com/huuhoait/simple-admin-message-center/internal/svc"
+	"github.com/huuhoait/simple-admin-message-center/types/mcms"
 )
 
 type McmsServer struct {

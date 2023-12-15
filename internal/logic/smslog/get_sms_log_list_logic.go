@@ -2,11 +2,11 @@ package smslog
 
 import (
 	"context"
-	"github.com/suyuan32/simple-admin-message-center/ent/predicate"
-	"github.com/suyuan32/simple-admin-message-center/ent/smslog"
-	"github.com/suyuan32/simple-admin-message-center/internal/svc"
-	"github.com/suyuan32/simple-admin-message-center/internal/utils/dberrorhandler"
-	"github.com/suyuan32/simple-admin-message-center/types/mcms"
+	"github.com/huuhoait/simple-admin-message-center/ent/predicate"
+	"github.com/huuhoait/simple-admin-message-center/ent/smslog"
+	"github.com/huuhoait/simple-admin-message-center/internal/svc"
+	"github.com/huuhoait/simple-admin-message-center/internal/utils/dberrorhandler"
+	"github.com/huuhoait/simple-admin-message-center/types/mcms"
 
 	"github.com/suyuan32/simple-admin-common/utils/pointy"
 	"github.com/zeromicro/go-zero/core/logx"

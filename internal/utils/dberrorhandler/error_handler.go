@@ -7,7 +7,7 @@ import (
 	"github.com/suyuan32/simple-admin-common/i18n"
 	"github.com/suyuan32/simple-admin-common/msg/logmsg"
 
-	"github.com/suyuan32/simple-admin-message-center/ent"
+	"github.com/huuhoait/simple-admin-message-center/ent"
 )
 
 // DefaultEntError returns errors dealing with default functions.

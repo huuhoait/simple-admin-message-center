@@ -3,10 +3,10 @@ package emaillog
 import (
 	"context"
 
-	"github.com/suyuan32/simple-admin-message-center/ent/emaillog"
-	"github.com/suyuan32/simple-admin-message-center/internal/svc"
-	"github.com/suyuan32/simple-admin-message-center/internal/utils/dberrorhandler"
-	"github.com/suyuan32/simple-admin-message-center/types/mcms"
+	"github.com/huuhoait/simple-admin-message-center/ent/emaillog"
+	"github.com/huuhoait/simple-admin-message-center/internal/svc"
+	"github.com/huuhoait/simple-admin-message-center/internal/utils/dberrorhandler"
+	"github.com/huuhoait/simple-admin-message-center/types/mcms"
 
 	"github.com/suyuan32/simple-admin-common/i18n"
 	"github.com/suyuan32/simple-admin-common/utils/uuidx"
